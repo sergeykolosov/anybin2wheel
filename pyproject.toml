@@ -15,6 +15,9 @@ license = {text = "MIT"}
 [project.scripts]
 anybin2wheel = "anybin2wheel:main"
 
+[project.urls]
+Homepage = "https://github.com/sergeykolosov/anybin2wheel"
+
 [build-system]
 requires = ["setuptools>=61", "wheel"]
 build-backend = "setuptools.build_meta"
