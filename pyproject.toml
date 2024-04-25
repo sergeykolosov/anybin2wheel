@@ -5,7 +5,9 @@ description = "Package any executable to be distributed as a wheel."
 authors = [
     {name = "Sergey Kolosov", email = "m17.admin@gmail.com"},
 ]
-dependencies = []
+dependencies = [
+    "distlib>=0.3.8",
+]
 requires-python = ">=3.8"
 readme = "README.md"
 license = {text = "MIT"}
